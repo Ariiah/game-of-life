@@ -46,7 +46,6 @@ $(document).ready(function () {
       delete activeCells[rowColString]
     }
 
-    debugger
     // console.log(`uiGridCellClick() ${rowColString}`)
   }
 
