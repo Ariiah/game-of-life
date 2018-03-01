@@ -33,7 +33,8 @@ $(document).ready(function () {
   function uiGridCellClick(event) {
     event.preventDefault()
     const rowColString = $(this).attr('data-row-col')
-    console.log(`uiGridCellClick() ${rowColString}`);
+    $(this).toggleClass('on')
+    console.log(`uiGridCellClick() ${rowColString}`)
   }
 
   // BUTTON EVENT HANDLERS

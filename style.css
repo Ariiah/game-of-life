@@ -7,4 +7,11 @@ table tr td {
   height: 10px;
   border: 1px solid plum;
   cursor: pointer;
+  color: plum;
+  background-color: white;
+}
+
+.on {
+  color: white;
+  background-color: plum;
 }
