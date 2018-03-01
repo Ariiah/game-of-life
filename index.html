@@ -8,33 +8,36 @@
 <body>
     <h2>Game of life</h2>
 
-  <form>
-    <div>
-      <button id="dump-config-btn">Dump config</button>
-      <span>Show current config on console.</span>
-    </div>
+    <table id="ui-grid"></table>
 
-    <div>
-      <button id="clear-btn">Clear</button>
-      <span>Torch it</span>
-    </div>
+    <form>
+      <h3>Controls</h3>
 
-    <div>
-      <button id="one-tick-btn">One Tick</button>
-      <span>Start tick</span>
-    </div>
+      <div>
+        <button id="dump-config-btn">Dump config</button>
+        <span>Show current config on console.</span>
+      </div>
 
-    <div>
-      <button id="start-tick-btn">Start</button>
-      <span>kejyrg</span>
-    </div>
+      <div>
+        <button id="clear-btn">Clear</button>
+        <span>Torch it</span>
+      </div>
 
-    <div>
-      <button id="stop-tick-btn">Stop button</button>
-      <span>bh</span>
-    </div>
+      <div>
+        <button id="one-tick-btn">One Tick</button>
+        <span>One generation step</span>
+      </div>
 
-  </form>
+      <div>
+        <button id="start-tick-btn">Start Ticking</button>
+        <span>Start automatically advancing gernations</span>
+      </div>
+
+      <div>
+        <button id="stop-tick-btn">Stop Ticking</button>
+        <span>Stop automatically advancing gernations</span>
+      </div>
+    </form>
 
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
     <script src="app.js"></script>
